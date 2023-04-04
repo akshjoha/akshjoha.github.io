@@ -1,0 +1,288 @@
+@font-face {
+font-family: "Renua Trials";
+src: url(fonts/RanuaTrials-Medium.ttf);
+}
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image/edor.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 48px 80px;
+    justify-content: space-evenly;
+    align-items: top;
+}
+nav img{
+    
+    width: 159px;
+    padding: 0px 60px;
+    align-items: left;
+    margin: 5px 5px;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px 60px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 590px;
+    font-size: 23;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin:auto;
+    transition: 0.7s;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+}
+.line{
+    border-top: 1px solid rgba(255, 255, 255, 0.678);
+    margin: -35px 195px;
+    max-width: relative;
+    display: block;
+}
+.vl{
+    border-left: 1px solid rgba(255, 255, 255, 0.678);
+    height: 70px;
+    margin-top: -83px;
+    margin-left: 78%;
+}
+.ss{
+position: absolute;
+width: 250px;
+height: 61px;
+left: 661px;
+top: 448px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 61px;
+/* identical to box height, or 156% */
+
+text-align: justify;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+    
+}
+.bd{
+    position: absolute;
+    width: 1438px;
+    height: 139px;
+    left: 46px;
+    top: 507px;
+    
+    font-family: 'Ranua Trials';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 38px;
+    line-height: 107px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.sub{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin: 415px 450px;
+    padding: 80px 7px;
+    font-size: 18px;
+    align-items: middle;
+    max-width: 100%;
+}
+
+.about{
+    min-height: 180vh;
+    width: 100%;
+    
+}
+
+.aboutmain{
+
+    color: black;
+    font-family: Renua Trials;
+    font-weight: 700px;
+    font-size: 45px;
+    display: flex;
+    padding: 43px;
+    flex-shrink: 2;
+    margin-top: 43px;
+}
+
+.subabout{
+color: rgba(0, 0, 0, 0.848);
+font-family: 'Montserrat';
+font-weight: 150px;
+font-size: 18px;
+display: flex;
+padding: 43px;
+width: 655px;
+text-align: justify;
+line-height: 38px;
+}
+
+.subimg{
+    display: flex;
+    flex-shrink: 1;
+    align-items: right;
+    flex-direction: row-reverse;
+    padding: 30px;
+    margin-top: -460px;
+    margin-right: 60px;
+
+}
+.ourvision{
+color: black;
+font-family: Renua Trials;
+font-weight: 700px;
+font-size: 28px;
+padding: 20px;
+margin-left: 23px;
+display: flex;
+}
+.visionabout{
+color: rgba(0, 0, 0, 0.848);
+font-family: 'Montserrat';
+font-weight: 150px;
+font-size: 18px;
+display: flex;
+padding: 43px;
+width: 655px;
+text-align: justify;
+line-height: 35px;
+
+}
+
+.ourmission{
+color: black;
+font-family: Renua Trials;
+font-weight: 700px;
+font-size: 28px;
+margin: -253px 475px;
+display: flex;
+flex-direction: row-reverse;
+}
+
+
+.missionabout{
+    
+color: rgba(0, 0, 0, 0.848);
+font-family: 'Montserrat';
+font-weight: 150px;
+font-size: 18px;
+display: flex;
+flex-direction: row-reverse;
+width: 655px;
+text-align: justify;
+line-height: 35px;
+margin: 308px 795px;
+}
+
+.lin{
+border-top: 11px solid rgba(0, 0, 0, 0.87);
+max-width: 320px;
+
+}
+
+
+    .contactus{
+        min-height: 150vh;
+        width: 100%;
+    
+    }
+    
+    .contactmain{
+
+        color: black;
+        font-family: Renua Trials;
+        font-weight: 700px;
+        font-size: 45px;
+        display: flex;
+        padding: 43px;
+        flex-shrink: 2;
+    }
+     .flex-container{
+     color: rgba(0, 0, 0, 0.848);
+     font-family: "Montserrat";
+     font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+
+    width: 1230px;
+    line-height: 48px;
+    background-color: #E6E6E6;
+    margin: 53px 85px;
+    padding: 83px;
+}
+.subimg{
+    padding-bottom: 25px;
+}
+
+.timings{
+    font-family:'Renua Trials';
+    font-size: 13px;
+    margin: 12px 45px;
+    margin-top: 63px;
+    padding-bottom: 83px;
+}
+.time{
+    font-family:'Montserrat';
+    font-size: 13px;
+    width: 200px;
+    margin-top: -3px;
+
+
+}
+.finduson{
+    margin-top: 23px;
+    font-family: 'Renua Trials';
+}
+.flex-container2{
+    display: flex;
+    margin-left: -10px;
+}
+.efour23{
+    color: rgba(0, 0, 0, 0.848);
+    font-family: 'Montserrat';
+    font-weight: 300px;
+    font-size: 14px;
+    max-width: 700px;
+    margin-top: -5px;
+    margin-left: 28px; 
+    padding: 20px 20px;
+}
